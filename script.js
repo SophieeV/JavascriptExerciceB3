@@ -1,7 +1,5 @@
-var focus = document.getElementById("Name");
-
-focus.change = Message;
-
+var Focus = document.getElementById("Name");
+Focus.onkeyup = Message;
 function Message() {
-	alert("merci de votre participation!");
+	alert(Focus.value);
 }
